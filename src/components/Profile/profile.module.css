@@ -1,0 +1,72 @@
+.profile {
+  width: 25%;
+}
+.profile-block {
+  color: white;
+  padding: 30px;
+}
+.profile-transitions {
+
+}
+.profile-avatar {
+  width: 100px;
+  margin: auto;
+}
+.name {
+  padding: 20px;
+  text-align: center;
+}
+.username {
+  text-align: center;
+  font-size: 12px;
+  padding-top: 5px;
+  color: grey;
+  cursor: pointer;
+}
+.connection {
+  text-align: center;
+}
+.connection span {
+  margin: 20px;
+  cursor: pointer;
+}
+.social {
+  color: white;
+}
+.social-bg {
+  padding: 30px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: #59626d;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.icons {
+  display: flex;
+}
+.social-icons {
+  margin-left: 5px;
+  cursor: pointer;
+}
+.media {
+  color: white;
+}
+.media-bg {
+  padding: 30px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #59626d;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.media-cube {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  border-radius: 3px;
+  background-color: cornflowerblue;
+}
+.media-pdf {
+  cursor: pointer;
+}
+

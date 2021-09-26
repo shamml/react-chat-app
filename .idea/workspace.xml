@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="59c54d10-99bb-4eda-9269-32188a6e2d5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/MessagesScroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/App/Avatar/avatar.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/App/index.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Contacts/BlockContacts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Contacts/SearchContacts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Messages/InfoMessages.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Messages/SearchMessages.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/BlockProfile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/Avatar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/Avatar/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/MainContacts.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Search.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/contacts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Messages/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Messages/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Messages/InboxMessages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Messages/InboxMessages.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Messages/InputMessage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Messages/InputMessage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Messages/MessagesBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Messages/BlockMessages.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Messages/MessagesInfo.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Messages/OutboxMessage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Messages/OutboxMessage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Messages/Search.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Messages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Messages/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Messages/messages.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Messages/messages.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Media.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Media.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileBlock.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Social.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Social.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/profile.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/configureStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/configureStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/ducks/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/ducks/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/ducks/contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/ducks/contacts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/ducks/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/ducks/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/ducks/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/ducks/messages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../react-chat/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/.idea/react-chat.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../react-chat/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react-chat/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react-chat/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/src/components/App/Avatar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/src/components/App/app.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/../react-chat/src/components/App/app.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/src/components/App/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/src/components/Contacts/FormContacts.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/src/components/Contacts/Users.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/src/components/Contacts/contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/../react-chat/src/components/Contacts/contacts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/src/components/Contacts/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-chat/src/components/Contacts/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/src/components/Messages/FilterMessages.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/src/components/Messages/InboxMessage.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/src/components/Messages/MessageFooter.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/src/components/Messages/MessageInfo.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/src/components/Messages/MessagesBlocks.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/src/components/Messages/MessagesBody.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/src/components/Messages/MessagesHeader.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/src/components/Messages/OutboxMessage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-chat/src/components/Messages/OutboxMessage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/src/components/Messages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-chat/src/components/Messages/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/src/components/Messages/messages.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/../react-chat/src/components/Messages/messages.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/src/components/Profile/Media.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-chat/src/components/Profile/Media.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/src/components/Profile/Name.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/src/components/Profile/ProfileInfo.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/src/components/Profile/Social.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-chat/src/components/Profile/Social.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/src/components/Profile/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-chat/src/components/Profile/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/src/components/Profile/profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/../react-chat/src/components/Profile/profile.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-chat/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/src/redux/configureStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-chat/src/redux/configureStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/src/redux/ducks/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-chat/src/redux/ducks/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/src/redux/ducks/contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-chat/src/redux/ducks/contacts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-chat/src/redux/ducks/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-chat/src/redux/ducks/messages.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1yVUj6LBcpHrYY9EIix4pr0I9V2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Admin\Desktop\react-chat-app\node_modules\prettier" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\react-chat-app\src\components\App" />
+      <recent name="C:\Users\Admin\Desktop\react-chat-app\src\components" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59c54d10-99bb-4eda-9269-32188a6e2d5e" name="Default Changelist" comment="" />
+      <created>1632336385149</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632336385149</updated>
+      <workItem from="1632336386727" duration="5949000" />
+      <workItem from="1632375893639" duration="32049000" />
+      <workItem from="1632468254151" duration="12010000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
