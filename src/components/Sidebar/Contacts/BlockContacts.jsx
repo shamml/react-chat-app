@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from './contacts.module.css';
-import Avatar from '../App/Avatar';
+import styles from '../sidebar.module.css';
+import Avatar from '../../App/Avatar';
 import { NavLink } from 'react-router-dom';
 import * as dayjs from 'dayjs';
 import PropTypes from 'prop-types';

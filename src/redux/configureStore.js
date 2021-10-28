@@ -1,4 +1,3 @@
-
 import { applyMiddleware, combineReducers, createStore } from 'redux';
 import { application, messages, contacts } from './ducks';
 import thunk from 'redux-thunk';

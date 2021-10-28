@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from './messages.module.css';
+import styles from '../chat.module.css';
 import * as dayjs from 'dayjs';
-import Avatar from '../App/Avatar';
+import Avatar from '../../App/Avatar';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
-import { removeMessage } from '../../redux/ducks/messages';
+import { removeMessage } from '../../../redux/ducks/messages';
 import PropTypes from 'prop-types';
 
 function InboxMessages({ content, message }) {
@@ -35,11 +35,9 @@ function InboxMessages({ content, message }) {
           {dayjs(timeSendMessage).format('HH:mm')}
         </div>
         <div className={styles.delete} onClick={handleDeleteMessage}>
-          {loading ? (
-            <span className="material-icons">auto_delete</span>
-          ) : (
-            <span className="material-icons">delete</span>
-          )}
+          <span className="material-icons">
+            {loading ? 'auto_delete' : 'delete'}
+          </span>
         </div>
       </div>
     </div>
@@ -48,7 +46,7 @@ function InboxMessages({ content, message }) {
 
 InboxMessages.propTypes = {
   content: PropTypes.string.isRequired,
-  message: PropTypes.object,
+  message: PropTypes.object.isRequired,
 };
 
 export default InboxMessages;

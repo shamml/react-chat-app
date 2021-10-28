@@ -1,11 +1,10 @@
 import React, { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { loadContacts } from '../../redux/ducks/contacts';
-import BLockContacts from './BlockContacts';
-import SearchContacts from './SearchContacts';
 import ReactLoading from 'react-loading';
+import { useDispatch, useSelector } from 'react-redux';
+import { loadContacts } from '../../../redux/ducks/contacts';
+import BLockContacts from './BlockContacts'
 
-function Contacts(props) {
+function Contacts() {
   const dispatch = useDispatch();
 
   const loading = useSelector((state) => state.contacts.loading);
@@ -24,18 +23,15 @@ function Contacts(props) {
   }, [dispatch]);
 
   return (
-    <div>
-      <SearchContacts />
-      <ul>
-        {loading ? (
-          <ReactLoading type="balls" color="white" />
-        ) : (
-          contacts.map((contact) => {
-            return <BLockContacts contact={contact} key={contact._id} />;
-          })
-        )}
-      </ul>
-    </div>
+    <ul>
+      {loading ? (
+        <ReactLoading type="balls" color="white" />
+      ) : (
+        contacts.map((contact) => {
+          return <BLockContacts contact={contact} key={contact._id} />;
+        })
+      )}
+    </ul>
   );
 }
 

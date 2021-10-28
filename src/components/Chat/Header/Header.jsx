@@ -1,12 +1,12 @@
 import React from 'react';
-import SearchMessages from '../Messages/SearchMessages';
-import styles from './messages.module.css';
+import SearchMessages from './/SearchMessages';
+import styles from '../chat.module.css';
 import { useParams } from 'react-router-dom';
-import { useDispatch, useSelector } from 'react-redux'
-import { openProfile } from '../../redux/ducks/application'
+import { useDispatch, useSelector } from 'react-redux';
+import { openProfile } from '../../../redux/ducks/application';
 
 function Header(props) {
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
 
   const params = useParams().id;
 
@@ -16,10 +16,10 @@ function Header(props) {
 
   const loadingMessages = useSelector((state) => state.messages.loading);
 
-  const open = useSelector(state => state.application.open)
+  const open = useSelector((state) => state.application.open);
   const handleClickOpen = () => {
-    dispatch(openProfile(open))
-  }
+    dispatch(openProfile(open));
+  };
 
   return (
     <div className={styles.header}>

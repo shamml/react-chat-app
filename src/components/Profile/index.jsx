@@ -11,7 +11,7 @@ function Profile(props) {
 
   const dispatch = useDispatch();
 
-  const open = useSelector(state => state.application.open)
+  const open = useSelector((state) => state.application.open);
 
   const contacts = useSelector((state) => {
     return state.contacts.contacts.filter((contact) => id === contact._id);

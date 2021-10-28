@@ -1,8 +1,8 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { sendMessage, setMessageText } from '../../redux/ducks/messages';
+import { sendMessage, setMessageText } from '../../../redux/ducks/messages';
 import { useParams } from 'react-router-dom';
-import styles from './messages.module.css';
+import styles from '../chat.module.css';
 
 function InputMessage(props) {
   const dispatch = useDispatch();

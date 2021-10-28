@@ -6,7 +6,6 @@
   padding: 30px;
 }
 .profile-transitions {
-
 }
 .profile-avatar {
   width: 100px;
@@ -38,7 +37,7 @@
   margin: 10px 0;
   border-radius: 5px;
   background-color: #59626d;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .icons {
   display: flex;
@@ -57,7 +56,7 @@
   align-items: center;
   border-radius: 5px;
   background-color: #59626d;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .media-cube {
   width: 40px;
@@ -69,4 +68,3 @@
 .media-pdf {
   cursor: pointer;
 }
-

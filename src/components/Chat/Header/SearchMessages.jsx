@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './messages.module.css';
+import styles from '../chat.module.css';
 import { useDispatch, useSelector } from 'react-redux';
-import { setFilterMessages } from '../../redux/ducks/messages';
+import { setFilterMessages } from '../../../redux/ducks/messages';
 
 function SearchMessages(props) {
   const dispatch = useDispatch();

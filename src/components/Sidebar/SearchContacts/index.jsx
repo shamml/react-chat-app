@@ -1,9 +1,9 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { setFilter } from '../../redux/ducks/contacts';
-import styles from './contacts.module.css';
+import { setFilter } from '../../../redux/ducks/contacts';
+import styles from '../sidebar.module.css';
 
-function Search(props) {
+function SearchContact(props) {
   const filter = useSelector((state) => state.contacts.filter);
 
   const dispatch = useDispatch();
@@ -24,4 +24,4 @@ function Search(props) {
   );
 }
 
-export default Search;
+export default SearchContact;
